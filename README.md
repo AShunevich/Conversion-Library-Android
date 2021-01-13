@@ -6,11 +6,11 @@ Aveliable localization: Ukrainian / English
 Add it in your root build.gradle :  
 ```
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	}    
+	repositories {
+	..
+	maven { url 'https://jitpack.io' }
+	}
+}    
 ```  
 and add this implementation :    
 ```
@@ -24,7 +24,7 @@ UnitConverter.ConvertValues (String unitConvertFrom,
 ```
 For Ukrainian localisation use ```UnitConverter.ConvertValues_Ukr...```
 
-Available unit for conversion - ![List]("https://github.com/AShunevich/Conversion-Library-Android/blob/master/Units.txt")   
+Available units for conversion - ![List]("https://github.com/AShunevich/Conversion-Library-Android/blob/master/Units.txt")   
        
 # License     
 The MIT License (MIT)
