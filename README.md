@@ -17,12 +17,9 @@ and add this implementation :
 implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.0'
 ```
 # How to use
-In you code use  : 
-```
-UnitConverter.ConvertValues (String unitConvertFrom, 
-                      String unitConvertTo , Double valueToConvert, TextView resultValue)
-```
-For Ukrainian localisation use ```UnitConverter.ConvertValues_Ukr...```
+In you code use  
+```UnitConverter.ConvertValues (String unitConvertFrom, String unitConvertTo, Double valueToConvert, TextView resultValue) ```     
+For Ukrainian localisation use ```UnitConverter.ConvertValues_Ukr```
 
 Available units for conversion - ![List]("https://github.com/AShunevich/Conversion-Library-Android/blob/master/Units.txt")   
        
