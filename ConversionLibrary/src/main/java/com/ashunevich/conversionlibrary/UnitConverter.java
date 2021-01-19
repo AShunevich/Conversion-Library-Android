@@ -431,7 +431,7 @@ public class UnitConverter {
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 0.0154); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 0.000035); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 0.0000022); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.00000002); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.00000002); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.000000001016); break;
                     case "Milligram":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -444,7 +444,7 @@ public class UnitConverter {
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 15.43); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 0.03527); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 0.002204); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.0000196); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.0000196); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.0000009); break;
                     case "Gram":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -457,7 +457,7 @@ public class UnitConverter {
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 15432.35); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 35.27); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 2.20); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.01968); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.01968); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.000984); break;
                     case "Kilogram":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -470,7 +470,7 @@ public class UnitConverter {
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 15432358.35); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 35273.96); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 2204.62); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 19.68); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 19.68); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.9842); break;
                     case "Tonne":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -483,7 +483,7 @@ public class UnitConverter {
                     case "Tonne":conversionMultiplier(resultValue, valueToConvert, 0.000000065); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 0.00228); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 0.000142857); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.000001429); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.000001429); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.000000064); break;
                     case "Grain":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -496,7 +496,7 @@ public class UnitConverter {
                     case "Tonne":conversionMultiplier(resultValue, valueToConvert, 0.00002835); break;
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 437.49); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 0.0625); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.000558036); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.000558036); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.0000279022); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
@@ -509,12 +509,12 @@ public class UnitConverter {
                     case "Tonne":conversionMultiplier(resultValue, valueToConvert, 0.0004535); break;
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 6999.99); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 16); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 0.008928571); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 0.008928571); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.000446429); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
                 break;
-            case "Hundreweight":
+            case "Hundredweight":
                 switch (unitConvertTo){
                     case "Milligram":conversionMultiplier(resultValue, valueToConvert, 50802345.44); break;
                     case "Gram":conversionMultiplier(resultValue, valueToConvert, 50802.34); break;
@@ -524,7 +524,7 @@ public class UnitConverter {
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 1792); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 112); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert, 0.05); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert,1);break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
                 break;
             case "Ton(long)":
@@ -536,7 +536,7 @@ public class UnitConverter {
                     case "Grain":conversionMultiplier(resultValue, valueToConvert, 15679999.99); break;
                     case "Ounce":conversionMultiplier(resultValue, valueToConvert, 35840.0); break;
                     case "Pound":conversionMultiplier(resultValue, valueToConvert, 2240.0); break;
-                    case "Hundreweight":conversionMultiplier(resultValue, valueToConvert, 20.0); break;
+                    case "Hundredweight":conversionMultiplier(resultValue, valueToConvert, 20.0); break;
                     case "Ton(long)":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
             case "Meter/second":
@@ -549,7 +549,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 3.28);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 11811.02);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 2.23);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 1.943);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 1.943);break;
                 }
                 break;
             case "Meter/hour":
@@ -561,7 +561,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 0.0009);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 3.28);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 0.00062);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.00053);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.00053);break;
                 }
                 break;
             case "Kilometer/second":
@@ -573,7 +573,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 0.911);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 3280.8);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 0.621);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.539);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.539);break;
                 }
                 break;
             case "Kilometer/hour":
@@ -585,7 +585,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 0.911);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 3280.8);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 0.621);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.539);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.539);break;
                 }
                 break;
             case "Foot/second":
@@ -597,7 +597,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 3600);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 0.681);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.5924);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.5924);break;
                 }
                 break;
             case "Foot/hour":
@@ -609,7 +609,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 0.00027);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 0.00018);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.00016);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.00016);break;
                 }
                 break;
             case "Mile/hour":
@@ -621,10 +621,10 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 1.46);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 5280);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert,1);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert, 0.8689);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert, 0.8689);break;
                 }
                 break;
-            case "Knot/kt":
+            case "Knot":
                 switch (unitConvertTo) {
                     case "Meter/second":conversionMultiplier(resultValue, valueToConvert, 0.514);break;
                     case "Meter/hour":conversionMultiplier(resultValue, valueToConvert, 1852);break;
@@ -633,7 +633,7 @@ public class UnitConverter {
                     case "Foot/second":conversionMultiplier(resultValue, valueToConvert, 1.687);break;
                     case "Foot/hour":conversionMultiplier(resultValue, valueToConvert, 6076.11);break;
                     case "Mile/hour":conversionMultiplier(resultValue, valueToConvert, 1.150);break;
-                    case "Knot/kt":conversionMultiplier(resultValue, valueToConvert,1);break;
+                    case "Knot":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
                 break;
             case "Celsius":
@@ -657,7 +657,7 @@ public class UnitConverter {
                     case "Rankine":conversionMultiplier(resultValue, valueToConvert, 1.8);break;
                 }
                 break;
-            case "Rankine/°R"  :
+            case "Rankine"  :
                 switch (unitConvertTo) {
                     case "Celsius":
                         resultValue.setText(String.valueOf(formatter.format((valueToConvert -491.67)*FiveDivNine)));break;//here
@@ -667,7 +667,7 @@ public class UnitConverter {
                     case "Rankine":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
                 break;
-            case "Fahrenheit/°F" :
+            case "Fahrenheit" :
                 switch (unitConvertTo) {
                     case "Celsius":
                         resultValue.setText(String.valueOf(formatter.format((valueToConvert -32)*FiveDivNine)));break;
@@ -1555,7 +1555,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,3.28);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,11811.02);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,2.23);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,1.943);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,1.943);break;
                 }
                 break;
             case "Метрів/година":
@@ -1567,7 +1567,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,0.0009);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,3.28);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,0.00062);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,0.00053);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,0.00053);break;
                 }
                 break;
             case "Кілометр/секунда":
@@ -1579,7 +1579,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,3280.83);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,11811023.6);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,2236.9);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,1943.8);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,1943.8);break;
                 }
                 break;
             case "Кілометр/година":
@@ -1591,7 +1591,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,0.911);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,3280.8);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,0.621);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,0.539);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,0.539);break;
                 }
                 break;
             case "Фут/секунда":
@@ -1603,7 +1603,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,3600);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,0.681);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,0.5924);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,0.5924);break;
                 }
                 break;
             case "Фут/година":
@@ -1615,7 +1615,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,0.00027);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,0.00018);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,0.00016);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,0.00016);break;
                 }
                 break;
             case "Міль/година":
@@ -1627,10 +1627,10 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,1.46);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,5280);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,1);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,0.8689);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,0.8689);break;
                 }
                 break;
-            case "Вузол/В":
+            case "Вузол":
                 switch (unitConvertTo) {
                     case "Метрів/секунда":conversionMultiplier(resultValue, valueToConvert,0.514);break;
                     case "Метрів/година":conversionMultiplier(resultValue, valueToConvert,1852);break;
@@ -1639,7 +1639,7 @@ public class UnitConverter {
                     case "Фут/секунда":conversionMultiplier(resultValue, valueToConvert,1.687);break;
                     case "Фут/година":conversionMultiplier(resultValue, valueToConvert,6076.11);break;
                     case "Міль/година":conversionMultiplier(resultValue, valueToConvert,1.150);break;
-                    case "Вузол/В":conversionMultiplier(resultValue, valueToConvert,1);break;
+                    case "Вузол":conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
                 break;
             case "Цельсій":
@@ -1690,7 +1690,7 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,0.0002777778);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,0.0000115741);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,0.0000016534);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,0.0000003805175038);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,0.0000003805175038);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.00000003170979198);break;
                 }
                 break;
@@ -1701,7 +1701,7 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,0.0166666667);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,0.0006944444);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,0.0000992063);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,0.0000228311);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,0.0000228311);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.0000019026);break;
                 }
                 break;
@@ -1712,7 +1712,7 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,0.0416666667);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,0.005952381);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,0.001369863);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,0.001369863);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.0001141553);break;
                 }
                 break;
@@ -1723,7 +1723,7 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,168);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,7);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,1);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,0.23);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,0.23);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.19);break;
                 }
                 break;
@@ -1734,18 +1734,18 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,168);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,7);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,1);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,0.2301369863);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,0.2301369863);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.0191780822);break;
                 }
                 break;
-            case "Місяц":
+            case "Місяць":
                 switch (unitConvertTo) {
                     case "Секунди": conversionMultiplier(resultValue, valueToConvert,2628000);break;
                     case "Хвилини": conversionMultiplier(resultValue, valueToConvert,43800);break;
                     case "Година": conversionMultiplier(resultValue, valueToConvert,730);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,30.416666667);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,4.3452380952);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,1);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,1);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,0.0833333333);break;
                 }
                 break;
@@ -1756,7 +1756,7 @@ public class UnitConverter {
                     case "Година": conversionMultiplier(resultValue, valueToConvert,8760);break;
                     case "День": conversionMultiplier(resultValue, valueToConvert,365);break;
                     case "Тиждень": conversionMultiplier(resultValue, valueToConvert,52.142857143);break;
-                    case "Місяц": conversionMultiplier(resultValue, valueToConvert,12);break;
+                    case "Місяць": conversionMultiplier(resultValue, valueToConvert,12);break;
                     case "Рік": conversionMultiplier(resultValue, valueToConvert,1);break;
                 }
             case "Міліметр кубічний":
