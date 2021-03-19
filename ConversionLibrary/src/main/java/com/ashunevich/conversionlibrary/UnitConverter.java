@@ -1,8 +1,11 @@
 package com.ashunevich.conversionlibrary;
 
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
+import java.util.Locale;
 
+@SuppressWarnings("ALL")
 public class UnitConverter {
     final static double NineDivFive = 9.0 / 5.0;
     final static double FiveDivNine = 5.0 / 9.0;
@@ -13,10 +16,12 @@ public class UnitConverter {
     }
 
     private static String temperatureConversion(double value) {
-        NumberFormat formatter = new DecimalFormat("###.##");
+        DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.getDefault());
+        otherSymbols.setDecimalSeparator('.');
+        NumberFormat formatter = new DecimalFormat("###.##",otherSymbols);
         return formatter.format(value);
     }
-    
+
     public static String ConvertValues(String basicUnit, String targetUnit, Double basicValue) {
 
         switch (basicUnit) {
