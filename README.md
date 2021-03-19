@@ -14,7 +14,7 @@ allprojects {
 ```  
 build.gradle (module)  :    
 ```
-implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.2'
+implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.3'
 ```
 # Example
 ```
