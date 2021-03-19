@@ -11,7 +11,9 @@ public class UnitConverter {
     final static double FiveDivNine = 5.0 / 9.0;
 
     private static String conversionMultiplier(double value, double multiplier) {
-        NumberFormat formatter = new DecimalFormat("###.#######################");
+        DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.getDefault());
+        otherSymbols.setDecimalSeparator('.');
+        NumberFormat formatter = new DecimalFormat("###.#######################",otherSymbols);
         return formatter.format(value * multiplier);
     }
 
