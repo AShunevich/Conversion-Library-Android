@@ -1,9 +1,9 @@
 # Conversion-Library-Android
-Simple Android conversion library.   
+Simple Android conversion library - returns string value of converted units   
 Aveliable localization: Ukrainian / English
 
 # Impementation
-Add it in your root build.gradle :  
+build.gradle (Project) :  
 ```
 allprojects {
 	repositories {
@@ -12,17 +12,23 @@ allprojects {
 	}
 }    
 ```  
-and add this implementation :    
+build.gradle (module)  :    
 ```
-implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.0'
+implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.2'
 ```
-# How to use
-In you code use  
-```UnitConverter.ConvertValues (String unitConvertFrom, String unitConvertTo, Double valueToConvert, TextView resultValue) ```     
-For Ukrainian localisation use ```UnitConverter.ConvertValues_Ukr```
+# Example
+```
+//Recommend to use with Android Spinner or other containers that can hold a large amount of string values
+String basicUnit = "Gram";   
+String targetUnit= "Milligram"; 
+double basicValue = 1.0;
 
+String result = UnitConverter.ConvertValues(basicUnit,targetUnit,basicValue);	//result = "1000.00"
+		
+```  
+For Ukrainian localisation use ```UnitConverter.ConvertValues_Ukr```   
 Available units for conversion - ![List]("https://github.com/AShunevich/Conversion-Library-Android/blob/master/Units.txt")   
-       
+
 # License     
 The MIT License (MIT)
 
