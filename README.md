@@ -1,6 +1,5 @@
 # Conversion-Library-Android
-Simple Android conversion library - returns string value of converted units   
-Aveliable localization: Ukrainian / English
+Android conversion library - returns string value of converted units   
 
 # Impementation
 build.gradle (Project) :  
@@ -14,7 +13,7 @@ allprojects {
 ```  
 build.gradle (module)  :    
 ```
-implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.2'
+implementation 'com.github.AShunevich:Conversion-Library-Android:0.1.3'
 ```
 # Example
 ```
