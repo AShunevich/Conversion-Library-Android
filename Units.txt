@@ -54,7 +54,7 @@
   - Quart ( Кварт ) 
   - Gallon ( Галлон ) 
 6) Force: 
-  - Mlilinewton ( Міліньютон ) 
+  - Millinewton ( Міліньютон )
   - Newton ( Ньютон ) 
   - Kilonewton ( Кілоньютон ) 
   - Ton-force(metric) ( Тонна-сила(метрична) ) 

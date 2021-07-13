@@ -259,9 +259,9 @@ public class UnitConverter {
                         return conversionMultiplier(basicValue, 1);
                 }
                 //!----FORCE----!
-            case "Mlilinewton":
+            case "Millinewton":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 1);
                     case "Newton":
                         return conversionMultiplier(basicValue, 0.001);
@@ -285,7 +285,7 @@ public class UnitConverter {
                 }
             case "Newton":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 1000);
                     case "Newton":
                         return conversionMultiplier(basicValue, 1);
@@ -309,7 +309,7 @@ public class UnitConverter {
                 }
             case "Kilonewton":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 1000000.0);
                     case "Newton":
                         return conversionMultiplier(basicValue, 1000);
@@ -333,7 +333,7 @@ public class UnitConverter {
                 }
             case "Ton-force(metric)":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 9806650);
                     case "Newton":
                         return conversionMultiplier(basicValue, 9806.65);
@@ -357,7 +357,7 @@ public class UnitConverter {
                 }
             case "Gram-force":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 9.8066);
                     case "Newton":
                         return conversionMultiplier(basicValue, 0.009806);
@@ -381,7 +381,7 @@ public class UnitConverter {
                 }
             case "Kilogram-force":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 9806.65);
                     case "Newton":
                         return conversionMultiplier(basicValue, 9.80665);
@@ -405,7 +405,7 @@ public class UnitConverter {
                 }
             case "Pond":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 9.80665);
                     case "Newton":
                         return conversionMultiplier(basicValue, 0.00980);
@@ -430,7 +430,7 @@ public class UnitConverter {
                 }
             case "Pound-force":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 4448.221);
                     case "Newton":
                         return conversionMultiplier(basicValue, 4.448);
@@ -454,7 +454,7 @@ public class UnitConverter {
                 }
             case "Ounce-force":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 278.013);
                     case "Newton":
                         return conversionMultiplier(basicValue, 0.27801);
@@ -478,7 +478,7 @@ public class UnitConverter {
                 }
             case "Ton-force (long)":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 9964016.41);
                     case "Newton":
                         return conversionMultiplier(basicValue, 9964.01);
@@ -502,7 +502,7 @@ public class UnitConverter {
                 }
             case "Poundal":
                 switch (targetUnit) {
-                    case "Mlilinewton":
+                    case "Millinewton":
                         return conversionMultiplier(basicValue, 138.25);
                     case "Newton":
                         return conversionMultiplier(basicValue, 0.13825);
