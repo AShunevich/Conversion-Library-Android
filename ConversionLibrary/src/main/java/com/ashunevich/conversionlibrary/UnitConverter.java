@@ -1,5 +1,7 @@
 package com.ashunevich.conversionlibrary;
 
+import android.support.annotation.VisibleForTesting;
+
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.text.NumberFormat;
@@ -7,23 +9,20 @@ import java.util.Locale;
 
 @SuppressWarnings("ALL")
 public class UnitConverter {
-    final static double NineDivFive = 9.0 / 5.0;
-    final static double FiveDivNine = 5.0 / 9.0;
+    final static double NINE_DIV_FIVE = 9.0 / 5.0;
+    final static double FIVE_DIV_NINE = 5.0 / 9.0;
 
-    private static String conversionMultiplier(double value, double multiplier) {
-        DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.getDefault());
-        otherSymbols.setDecimalSeparator('.');
-        NumberFormat formatter = new DecimalFormat("###.#######################",otherSymbols);
-        return formatter.format(value * multiplier);
+    @VisibleForTesting
+    static String conversionMultiplier(double value, double multiplier) {
+        return formatter ("###.#######################").format (value*multiplier);
     }
 
-    private static String temperatureConversion(double value) {
-        DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.getDefault());
-        otherSymbols.setDecimalSeparator('.');
-        NumberFormat formatter = new DecimalFormat("###.##",otherSymbols);
-        return formatter.format(value);
+    @VisibleForTesting
+    static String temperatureConversion(double value) {
+        return formatter ("###.##").format (value);
     }
 
+    @VisibleForTesting
     public static String ConvertValues(String basicUnit, String targetUnit, Double basicValue) {
 
         switch (basicUnit) {
@@ -1024,18 +1023,18 @@ public class UnitConverter {
                     case "Celsius":
                         return temperatureConversion(basicValue*1);
                     case "Fahrenheit":
-                        return temperatureConversion(basicValue * NineDivFive + 32);
+                        return temperatureConversion(basicValue * NINE_DIV_FIVE + 32);
                     case "Kelvin":
                         return temperatureConversion(basicValue + 273.15);
                     case "Rankine":
-                        return temperatureConversion(basicValue * NineDivFive + 491.67);
+                        return temperatureConversion(basicValue * NINE_DIV_FIVE + 491.67);
                 }
             case "Kelvin":
                 switch (targetUnit) {
                     case "Celsius":
                         return temperatureConversion(basicValue - 273.15);//here
                     case "Fahrenheit":
-                        return temperatureConversion(((basicValue - 273.15) * NineDivFive + 32)); //here
+                        return temperatureConversion(((basicValue - 273.15) * NINE_DIV_FIVE + 32)); //here
                     case "Kelvin":
                         return temperatureConversion(basicValue*1);
                     case "Rankine":
@@ -1044,22 +1043,22 @@ public class UnitConverter {
             case "Rankine":
                 switch (targetUnit) {
                     case "Celsius":
-                        return temperatureConversion(FiveDivNine * (basicValue - 491.67));//here
+                        return temperatureConversion(FIVE_DIV_NINE * (basicValue - 491.67));//here
                     case "Fahrenheit":
                         return temperatureConversion(basicValue - 459.67);//here
                     case "Kelvin":
-                        return temperatureConversion(basicValue*FiveDivNine);
+                        return temperatureConversion(basicValue* FIVE_DIV_NINE);
                     case "Rankine":
                         return temperatureConversion(basicValue*1);
                 }
             case "Fahrenheit":
                 switch (targetUnit) {
                     case "Celsius":
-                        return temperatureConversion(FiveDivNine * (basicValue - 32));
+                        return temperatureConversion(FIVE_DIV_NINE * (basicValue - 32));
                     case "Fahrenheit":
                         return temperatureConversion(basicValue*1);
                     case "Kelvin":
-                        return temperatureConversion((basicValue - 32) * FiveDivNine + 273.15);
+                        return temperatureConversion((basicValue - 32) * FIVE_DIV_NINE + 273.15);
                     case "Rankine":
                         return temperatureConversion(basicValue + 459.67);
                 }
@@ -2571,11 +2570,11 @@ public class UnitConverter {
                     case "Цельсій":
                         return temperatureConversion(basicValue*1);
                     case "Фаренгейт":
-                        return temperatureConversion(basicValue * NineDivFive + 32);
+                        return temperatureConversion(basicValue * NINE_DIV_FIVE + 32);
                     case "Кельвін":
                         temperatureConversion(basicValue + 273.15);
                     case "Ранкін":
-                        return temperatureConversion(basicValue * NineDivFive + 491.67);
+                        return temperatureConversion(basicValue * NINE_DIV_FIVE + 491.67);
                 }
 
             case "Кельвін":
@@ -2583,7 +2582,7 @@ public class UnitConverter {
                     case "Цельсій":
                         return temperatureConversion(basicValue - 273.15);//here
                     case "Фаренгейт":
-                        return temperatureConversion(((basicValue - 273.15) * NineDivFive + 32)); //here
+                        return temperatureConversion(((basicValue - 273.15) * NINE_DIV_FIVE + 32)); //here
                     case "Кельвін":
                         return temperatureConversion(basicValue*1);
                     case "Ранкін":
@@ -2593,11 +2592,11 @@ public class UnitConverter {
             case "Ранкін":
                 switch (targetUnit) {
                     case "Цельсій":
-                        return temperatureConversion(FiveDivNine * (basicValue - 491.67));//here
+                        return temperatureConversion(FIVE_DIV_NINE * (basicValue - 491.67));//here
                     case "Фаренгейт":
                         return temperatureConversion(basicValue - 459.67);//here
                     case "Кельвін":
-                        return temperatureConversion(basicValue*FiveDivNine);
+                        return temperatureConversion(basicValue* FIVE_DIV_NINE);
                     case "Ранкін":
                         return temperatureConversion(basicValue*1);
                 }
@@ -2605,11 +2604,11 @@ public class UnitConverter {
             case "Фаренгейт":
                 switch (targetUnit) {
                     case "Цельсій":
-                        return temperatureConversion(FiveDivNine * (basicValue - 32));
+                        return temperatureConversion(FIVE_DIV_NINE * (basicValue - 32));
                     case "Фаренгейт":
                         return temperatureConversion(basicValue*1);
                     case "Кельвін":
-                        temperatureConversion((basicValue - 32) * FiveDivNine + 273.15);
+                        temperatureConversion((basicValue - 32) * FIVE_DIV_NINE + 273.15);
                     case "Ранкін":
                         temperatureConversion(basicValue + 459.67);
                 }
@@ -3015,7 +3014,15 @@ public class UnitConverter {
             default: return "NaN";
         }
     }
+
+    public static NumberFormat formatter (String pattern){
+        DecimalFormatSymbols otherSymbols = new DecimalFormatSymbols(Locale.getDefault());
+        otherSymbols.setDecimalSeparator('.');
+        return new DecimalFormat (pattern,otherSymbols);
+    }
 }
+
+
 
 
 
